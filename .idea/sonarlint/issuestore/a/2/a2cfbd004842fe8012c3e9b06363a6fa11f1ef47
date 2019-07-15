@@ -1,0 +1,12 @@
+
+˜squid:S1186+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©ýŠ«
+\squid:UselessImportCheck"3Remove this unused import 'android.graphics.Color'.(øãíòþÿÿÿÿ
+gsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(Ö«ÛÛøÿÿÿÿ
+Hsquid:S1905",Remove this unnecessary cast to "TabLayout".(±ç…íÿÿÿÿÿ
+˜squid:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚äý“
+]squid:UselessImportCheck"4Remove this unused import 'android.widget.TextView'.(„Ë‚ˆÿÿÿÿÿ
+Asquid:S00108;")Either remove or fill this block of code.(å¥ž‡
+Wsquid:UselessImportCheck".Remove this unused import 'android.text.Html'.(ø¿ˆÛùÿÿÿÿ
+rsquid:S1450"VRemove the "mSlider" field and declare it as a local variable in the relevant methods.(Ïµ¼¥ÿÿÿÿÿ
+asquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ
+[squid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òžýÿÿÿÿ
