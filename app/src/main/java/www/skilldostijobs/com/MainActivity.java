@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 fab.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        startActivity(new Intent(context,LoginSignUp.class));
+                        startActivity(new Intent(context,DashBoard.class));
                         finish();
                     }
                 });//startActivity(new Intent(context,LoginSignUp.class));
