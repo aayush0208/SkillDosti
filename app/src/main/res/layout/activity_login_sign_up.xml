@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSignUp">
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw360dp_420dp"
+        android:background="@drawable/login_background_xhdpi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fitsSystemWindows="true"
+        />
+
+    <TextView
+        android:layout_width="@dimen/sw360dp_240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/find_a_job"
+        style="@style/text_40sp_white_regular"
+        android:layout_marginTop="@dimen/sw360dp_95dp"
+        android:layout_marginStart="@dimen/sw360dp_25dp"
+        android:textStyle="bold"
+        android:padding="@dimen/sw360dp_10dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/sw360dp_420dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_using"
+            android:layout_gravity="center_horizontal"
+            style="@style/textt_13sp_black_regular"
+            android:layout_marginTop="@dimen/sw360dp_5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            
+            <ImageView
+                android:layout_width="@dimen/sw360dp_140dp"
+                android:layout_height="@dimen/sw360dp_30dp"
+                android:layout_marginTop="@dimen/sw360dp_25dp"
+                android:background="@drawable/facebook_xhdpi"
+                />
+            <ImageView
+                android:layout_width="@dimen/sw360dp_140dp"
+                android:layout_height="@dimen/sw360dp_30dp"
+                android:layout_marginTop="@dimen/sw360dp_25dp"
+                android:background="@drawable/google_xhdpi"
+                android:layout_marginStart="@dimen/sw360dp_30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sw360dp_37dp"
+            android:layout_marginStart="@dimen/sw360dp_20dp"
+            android:layout_marginEnd="@dimen/sw360dp_20dp"
+            android:layout_marginTop="@dimen/sw360dp_25dp"
+            android:background="@drawable/edittext_round_corner"
+            android:elevation="@dimen/sw360dp_2dp"
+            >
+            <View
+                android:layout_width="@dimen/sw360dp_17dp"
+                android:layout_height="@dimen/sw360dp_20dp"
+                android:background="@drawable/zoom_xhdpi"
+                android:layout_margin="@dimen/sw360dp_10dp"/>
+            <EditText
+                android:id="@+id/search_text"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="@dimen/sw360dp_5dp"
+                android:layout_marginStart="@dimen/sw360dp_5dp"
+                android:layout_height="match_parent"
+                android:padding="@dimen/sw360dp_4dp"
+                android:hint="@string/search_your_skills"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="@dimen/sw360dp_140dp"
+                android:layout_height="@dimen/sw360dp_40dp"
+                android:layout_marginTop="@dimen/sw360dp_30dp"
+                android:text= "@string/register"
+                android:textAllCaps="false"
+                style="@style/text_18sp_white_regular"
+                android:background="@drawable/register_xhdpi"
+                android:gravity="center"
+                android:onClick="register"
+                />
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="@dimen/sw360dp_140dp"
+                android:layout_height="@dimen/sw360dp_40dp"
+                android:layout_marginTop="@dimen/sw360dp_30dp"
+                android:text="@string/sign_in"
+                style="@style/text_18sp_red_regular"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:background="@drawable/signin_xhdpi"
+                android:layout_marginStart="@dimen/sw360dp_30dp"
+                android:onClick="signin"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_your_activity_remain_private"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/sw360dp_5dp"
+        />
+</RelativeLayout>

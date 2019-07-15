@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInRegister">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw360dp_40dp">
+        <Button
+            android:id="@+id/btn_singin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/sign_in"
+            style="@style/text_18sp_red_regular"
+            android:textAllCaps="false"
+            android:background="@drawable/white_border_rectangle_banner_xhdpi"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_register"
+            android:layout_weight="1"
+            android:text="@string/register"
+            style="@style/text_18sp_white_regular"
+            android:textAllCaps="false"
+            android:background="@drawable/red_rectangle_banner_xhdpi"/>
+    </LinearLayout>
+    +
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="@dimen/sw360dp_300dp"
+        android:layout_height="@dimen/sw360dp_40dp"
+        android:layout_marginTop="@dimen/sw360dp_75dp"
+        android:text="@string/continue_using_facebook"
+        style="@style/text_15sp_white_regular"
+        android:padding="@dimen/sw360dp_4dp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/facebook_rounded_banner_xhdpi"
+        />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_fb"
+        android:padding="@dimen/sw360dp_4dp"
+        style="@style/text_15sp_white_regular"
+        android:textAllCaps="false"
+        android:text="@string/continue_using_google"
+        android:background="@drawable/google_rounded_banner_xhdpi"
+        android:layout_width="@dimen/sw360dp_300dp"
+        android:layout_height="@dimen/sw360dp_40dp"
+        android:layout_marginTop="@dimen/sw360dp_15dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sw360dp_30dp"
+        android:layout_below="@id/btn_google"
+        android:layout_marginTop="@dimen/sw360dp_22dp"
+        android:src="@drawable/or_with_line_xhdpi"/>
+
+    <!--<fragment-->
+        <!--android:id="@+id/register_fragment"-->
+        <!--android:name="www.skilldostijobs.com.fragments.register_user_fragment"-->
+        <!--android:layout_marginTop="@dimen/sw360dp_230dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<fragment-->
+        <!--android:id="@+id/signin_fragment"-->
+        <!--android:name="www.skilldostijobs.com.fragments.signin_user_fragment"-->
+        <!--android:layout_marginTop="@dimen/sw360dp_230dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+</RelativeLayout>

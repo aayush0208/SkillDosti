@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SkillDosti Jobs</string>
+    <string name="find_a_job">FIND A JOB AND APPLY NOW</string>
+    <string name="continue_using">CONTINUE USING</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="all_your_activity_remain_private">All your activity will remain private</string>
+    <string name="search_your_skills">Search your skills</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="continue_using_facebook">Continue with Facebook</string>
+    <string name="continue_using_google">Continue using Google</string>
+</resources>
